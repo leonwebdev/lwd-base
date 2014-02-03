@@ -1,14 +1,32 @@
 {
-    "name": "zendframework/skeleton-application",
-    "description": "Skeleton Application for ZF2",
+    "name": "leonwebdev/lwdapp",
+    "description": "Application for ZF2 including User connexion (email, social) with ZfcUser (zf-commons), scn-social-auth (Socalnick)",
     "license": "BSD-3-Clause",
     "keywords": [
         "framework",
-        "zf2"
+        "zf2",
+        "zfcuser",
+        "socalnick",
+        "doctrine",
+        "goalio",
+        "doctrine"
     ],
+    "minimum-stability": "dev",
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.2.*"
+        "zendframework/zendframework": ">2.2.0rc1",
+        "zf-commons/zfc-user": "0.1.*",
+        "zf-commons/zfc-user-doctrine-orm": "0.1.*",
+        "zendframework/zend-developer-tools": "dev-master",
+        "bjyoungblood/bjy-profiler": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "socalnick/scn-social-auth": "1.*",
+        "cgm/zf2-file-upload-examples": "dev-master",
+        "zendframework/zendservice-twitter": "dev-master",
+        "socalnick/scn-social-auth-doctrine-orm": "dev-master",
+        "evandotpro/edp-module-layouts": "dev-master",
+        "zf-commons/zfc-admin": "dev-master",
+        "goalio/goalio-forgotpassword-doctrine-orm": "dev-master"
     }
 }
