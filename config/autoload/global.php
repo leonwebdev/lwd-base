@@ -12,5 +12,6 @@
  */
 
 return array(
-    // ...
+    'lwd-send-email-email' => 'contact@marcetleon.com',
+    'lwd-send-email-name' => 'marc & leon',
 );
