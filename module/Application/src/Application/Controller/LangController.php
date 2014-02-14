@@ -16,12 +16,6 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-//        $config = $this->getServiceLocator()->get('config');
-//        $configEmailContact = $config['lwd-send-email-email'];
-//        var_dump($configEmailContact);
-//        $configEmailContact2 = $config['email_from_address'];
-//        var_dump($configEmailContact2);
-        var_dump($_SESSION['lwd']);
-        return new ViewModel();
+        return $this->redirect()->toRoute('home');
     }
 }

@@ -13,16 +13,18 @@ $settings = array(
      * Default: empty
      */
     'email_from_address' => array(
-        'email' => function ($sm) {
-            // Récupérer le tableau de configuration
-            $config = $sm->get('config');
-            return $config['lwd-send-email-email'];
-        },
-        'name' => function ($sm) {
-            // Récupérer le tableau de configuration
-            $config = $sm->get('config');
-            return $config['lwd-send-email-name'];
-        },
+        'email' => 'test',
+        'name' => 'test'
+//        'email' => function ($sm) {
+//            // Récupérer le tableau de configuration
+//            $config = $sm->get('config');
+//            return $config['lwd-send-email-email'];
+//        },
+//        'name' => function ($sm) {
+//            // Récupérer le tableau de configuration
+//            $config = $sm->get('config');
+//            return $config['lwd-send-email-name'];
+//        },
     ),
         /**
          * Subject line of the email message which is

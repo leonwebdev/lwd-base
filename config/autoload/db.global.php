@@ -3,8 +3,7 @@
 return array(
     'db' => array(
         'driver' => 'pdo',
-        'dsn' => 'mysql:host=localhost;dbname=marcetleonv3;',
-        //'dsn' => 'mysql:host=localhost;dbname=jimmyleon;',
+        'dsn' => 'mysql:host=localhost;dbname=lwd;',
         'driver_options' => array(
             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
         ),
