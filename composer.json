@@ -27,6 +27,7 @@
         "socalnick/scn-social-auth-doctrine-orm": "dev-master",
         "evandotpro/edp-module-layouts": "dev-master",
         "zf-commons/zfc-admin": "dev-master",
-        "goalio/goalio-forgotpassword-doctrine-orm": "dev-master"
+        "goalio/goalio-forgotpassword-doctrine-orm": "dev-master",
+        "goalio/goalio-rememberme": "dev-master"
     }
 }
